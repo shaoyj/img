@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <servers>
+        <server>
+            <id>byte-nexus-maven</id>
+            <username>luke@2630809</username>
+            <password>Th5EZ7W8eBU8mPz!</password>
+        </server>
+    </servers>
+    <mirrors>
+        <mirror>
+            <id>byte-mirror</id>
+            <mirrorOf>central</mirrorOf>
+            <url>https://artifacts-cn-beijing.volces.com/repository/mirror/</url>
+        </mirror>
+    </mirrors>
+</settings>
